@@ -304,6 +304,48 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>VoodooPS2Keyboard.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Keyboard</string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>VoodooPS2Mouse.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Mouse</string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>VoodooPS2Trackpad.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Trackpad</string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Emulate</key>
 		<dict>
@@ -473,7 +515,7 @@
 			<key>HideSelf</key>
 			<false/>
 			<key>Resolution</key>
-			<string></string>
+			<string>1280x1024</string>
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
@@ -554,7 +596,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 RequireVault=false -wegnoegpu kext-dev-mode=1 dart=0 nv_disable=1 -cdfon -igfxnohdmi -radvesa</string>
+				<string>keepsyms=1 RequireVault=false -wegnoegpu kext-dev-mode=1 dart=0 nv_disable=1 -cdfon -igfxnohdmi -radvesa -no_compat_check</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -607,17 +649,17 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C02502303GUG2Y78C</string>
+			<string>C02726405J9HWVPFB</string>
 			<key>ROM</key>
-			<data>vi6ZGz4SAAA=</data>
+			<data>c1Zi</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacbookPro14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P32YJFY10</string>
+			<string>C02TX03ZHV29</string>
 			<key>SystemUUID</key>
-			<string>00000000-0000-0000-0000-000000000000</string>
+			<string>F319713B-E192-46B0-99D7-5F4D13A16B6B</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -671,7 +713,7 @@
 			<key>RequestBootVarRouting</key>
 			<false/>
 			<key>SanitiseClearScreen</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 </dict>
