@@ -16,4 +16,4 @@ Toshiba - Satellite P50-B -
 CPU - Intel 4710HQ -
 GPU - Intel HD 4600 -
 RAM - 8GB 1600mhz DDR3 -
-macOS - 10.14.6
+macOS - 10.13.6
