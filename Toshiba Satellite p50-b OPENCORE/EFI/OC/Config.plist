@@ -596,7 +596,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 RequireVault=false -wegnoegpu kext-dev-mode=1 dart=0 nv_disable=1 -cdfon -igfxnohdmi -radvesa -no_compat_check</string>
+				<string>keepsyms=1 RequireVault=false -wegnoegpu kext-dev-mode=1 dart=0 nv_disable=1 -cdfon -igfxnohdmi -radvesa -no_compat_check -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
