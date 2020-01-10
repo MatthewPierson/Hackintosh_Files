@@ -17,3 +17,9 @@ CPU - Intel 4710HQ -
 GPU - Intel HD 4600 -
 RAM - 8GB 1600mhz DDR3 -
 macOS - 10.13.6
+
+Desktop PC -
+CPU - Ryzen 3600 -
+GPU - Nvidia GTX 1060 3gb-
+RAM - 16GB 3400mhz DDR4 -
+macOS - 10.13.6
